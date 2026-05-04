@@ -1,0 +1,4 @@
+1. methods inside controller class should be public  so that they can be access and invoked by the spring framework
+or external Http request.
+
+2.

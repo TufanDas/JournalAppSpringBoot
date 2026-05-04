@@ -1,0 +1,11 @@
+1: .idea this folder is relatd to the intelije ide no relate to the springBoot.
+2: .mvn this is for maven wrapper if we use mvnw.cmd then this folder is related
+3: gitIgnore: files to ignore to commit.
+4: target is is for maven dependency
+5: src\main\ -> core functionality
+5: src\test\ -> tests related to core functionality
+6:5: src\main\java -> will write code
+6:5: src\main\recources -> properties thakbe
+6:5:1: src\main\recources\static -> store images, css
+6:5:2: src\main\recources\applications.properties -> mongo db configurations
+7: pom(Project Object Model).xml: write all the dependencies. means what are the external libreries we use to build springboot project

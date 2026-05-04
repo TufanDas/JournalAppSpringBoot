@@ -1,0 +1,21 @@
+8. Actual SpringBoot Project. wehen we run springBoot project how it is actually run internallly? and meaning of each annotations , ioc container, what is the been? what is application context? what is the component?
+object creation externalized hence the name of IOC(Inversion of Control)
+
+ioc container is box contained beens, ioc container take the responsibility of object which class is annotated with @component annotation
+
+ex:
+@component
+public class Car{
+// this class is autometically register as a Spring Bean(object)
+}
+
+
+@SpringBootApplication we attatched this annotation with the main class
+this annotation has 3 main responsibility
+1. @Configuration
+2. @EnableAutoConfigurations
+3. @ComponentScan
+- means this @SpringBootApplication Annotation is equal to these 3 annotaions(1.@Configuration, 2.@EnableAutoConfigurations, 3.@ComponentScan)
+@RestControler is also create beans like @Component but something else also so @RestControler is the specialize version of @Component
+@AutoWired  is field injection
+

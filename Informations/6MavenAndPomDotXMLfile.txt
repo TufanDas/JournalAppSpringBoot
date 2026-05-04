@@ -1,0 +1,7 @@
+1. what is Maven
+ans: maven is a build automation tool, which manage the dependency.
+maven build k simplify kore ar dependency ke manage kore
+please remember all Maven command like package, test, clean etc.
+
+2. pom.xml(Project Object Model):
+   dependency-> means external libraries
